@@ -1,0 +1,109 @@
+{
+  "val_benchmark": {
+    "TinyGo Large (10b ResNet, 3.22M)": {
+      "top1": 30.62,
+      "top3": 50.93,
+      "top5": 63.82,
+      "pol_ce": 12.5827,
+      "pos_per_s": 906.5
+    },
+    "TurboGo-v2 Best (22-Layer Attn, 20.82M)": {
+      "top1": 42.48,
+      "top3": 67.33,
+      "top5": 78.66,
+      "pol_ce": 2.203,
+      "pos_per_s": 302.8
+    }
+  },
+  "arena_10_games": {
+    "mode": "Fast Pure Policy Match: TurboGo-Mini (3.06M, 1-Visit) vs TinyGo Large (3.22M, 1-Visit)",
+    "total_games": 10,
+    "turbo_wins": 8,
+    "tinygo_wins": 2,
+    "turbo_win_rate": 80.0,
+    "turbo_wins_as_black": 5,
+    "turbo_wins_as_white": 3,
+    "games": [
+      {
+        "game": 1,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+9.3 (盘面 -49.5, 200手)",
+        "moves": 200,
+        "opening": "C16 D4 Q4 Q16 R17 Q17 R16 R14"
+      },
+      {
+        "game": 2,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+3.0 (盘面 +60.5, 200手)",
+        "moves": 200,
+        "opening": "D16 Q4 D4 Q16 R17 Q17 R16 Q15"
+      },
+      {
+        "game": 3,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+12.7 (目数差 +12.7 / 盘面 -5.5 @ 151手)",
+        "moves": 151,
+        "opening": "D17 D4 R16 Q4 D14 P16 P17 O17"
+      },
+      {
+        "game": 4,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+35.8 (目数差 -35.8 / 盘面 -15.5 @ 171手)",
+        "moves": 171,
+        "opening": "D16 Q4 Q16 D4 R3 R4 Q3 P4"
+      },
+      {
+        "game": 5,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+75.5 (目数差 +75.5 / 盘面 +3.5 @ 161手)",
+        "moves": 161,
+        "opening": "Q16 D4 Q3 D16 O17 R5 O4 Q9"
+      },
+      {
+        "game": 6,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+15.8 (目数差 +15.8 / 盘面 -5.5 @ 181手)",
+        "moves": 181,
+        "opening": "Q16 D4 Q4 D16 C3 D3 C4 D5"
+      },
+      {
+        "game": 7,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+6.0 (盘面 -0.5, 200手)",
+        "moves": 200,
+        "opening": "Q4 D16 Q16 D4 C3 D3 C4 D5"
+      },
+      {
+        "game": 8,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+15.8 (目数差 +15.8 / 盘面 -5.5 @ 181手)",
+        "moves": 181,
+        "opening": "Q4 D16 Q16 D4 C3 D3 C4 D5"
+      },
+      {
+        "game": 9,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+15.9 (目数差 +15.9 / 盘面 +0.5 @ 171手)",
+        "moves": 171,
+        "opening": "Q16 Q4 D3 D16 C6 O17 R14 O15"
+      },
+      {
+        "game": 10,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+23.7 (目数差 -23.7 / 盘面 -12.5 @ 81手)",
+        "moves": 81,
+        "opening": "Q16 D4 Q4 D16 C17 D17 C16 D15"
+      }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "started_at": "2026-10-29T14:49:23",
+  "running": false,
+  "model_name": "TinyGo Large (3.22M ResNet)",
+  "opponent": "星灵狐 (4段)",
+  "current_game": {
+    "step": 269,
+    "user_color": "B",
+    "opponent": "星灵狐(4段)",
+    "last_move": "M2",
+    "last_prob": 0.268,
+    "my_winrate": 0.1,
+    "my_score_lead": -34.7,
+    "nn_ms": 14.26
+  },
+  "result": {
+    "is_win": false,
+    "result_txt": "白胜：17又1/4子",
+    "moves": 270,
+    "time": "14:50:31"
+  }
+}

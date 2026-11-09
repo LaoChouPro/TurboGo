@@ -1,0 +1,15 @@
+# Dataset shards
+data/
+
+# Python virtual environments & caches
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Duplicate runtime weights directory (canonical weights are tracked in checkpoints/)
+turbogo_v2_play/weights/
+
+# Single file > 100 MB GitHub blob limit (uploaded to GitHub Releases v2.0.0)
+checkpoints/b12c384_best_fp32_weights.pt

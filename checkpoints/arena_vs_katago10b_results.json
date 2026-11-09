@@ -1,0 +1,198 @@
+{
+  "validation_benchmark": {
+    "KataGo b10c384 (10.55M, Official)": {
+      "top1": 51.953125,
+      "top3": 78.076171875,
+      "top5": 89.697265625,
+      "p0_loss": 1.7520379275083542,
+      "wld_acc": 80.76171875,
+      "lead_mae": 4.2124465852975845,
+      "own_mse": 0.5127420928329229,
+      "pos_per_s": 112.30179656932246
+    },
+    "TurboGo b12c384 Best (30.87M, Step 165k)": {
+      "top1": 41.259765625,
+      "top3": 64.0625,
+      "top5": 75.927734375,
+      "p0_loss": 2.2839928343892097,
+      "wld_acc": 65.52734375,
+      "lead_mae": 5.962551325559616,
+      "own_mse": 0.481985867023468,
+      "pos_per_s": 112.38034843583081
+    },
+    "TurboGo b12c384 Final (30.87M, Step 183k)": {
+      "top1": 40.478515625,
+      "top3": 64.501953125,
+      "top5": 76.416015625,
+      "p0_loss": 2.281191408634186,
+      "wld_acc": 62.5,
+      "lead_mae": 6.270865380764008,
+      "own_mse": 0.4823079463094473,
+      "pos_per_s": 116.59655122455804
+    }
+  },
+  "arena_raw": {
+    "mode": "Raw Policy Network (1-Visit)",
+    "total_games": 10,
+    "turbo_wins": 0,
+    "win_rate": 0.0,
+    "wins_as_black": 0,
+    "wins_as_white": 0,
+    "games": [
+      {
+        "game_id": 1,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+57.3 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "C4 Q4 C16 Q17 E4 E17 D17 E16 C14 J16"
+      },
+      {
+        "game_id": 2,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+20.2 (Resign @ move 131)",
+        "moves": 131,
+        "opening": "C4 Q16 R4 D16 F4 P4 P3 O3 Q3 F17"
+      },
+      {
+        "game_id": 3,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+74.1 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "D4 D16 Q16 Q4 R3 R4 Q3 O3 O2 N2"
+      },
+      {
+        "game_id": 4,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+36.6 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "D4 D16 C14 Q4 Q16 F17 R3 Q3 R4 R6"
+      },
+      {
+        "game_id": 5,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+63.2 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "Q16 D4 R4 D16 P4 R17 Q17 R16 R14 S14"
+      },
+      {
+        "game_id": 6,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+49.9 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "Q16 D4 Q4 D16 F17 E17 F16 D14 C3 C4"
+      },
+      {
+        "game_id": 7,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+76.0 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "C16 Q16 Q4 D4 C3 C4 D3 F3 F2 G2"
+      },
+      {
+        "game_id": 8,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+47.8 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "Q17 D16 Q3 D4 Q6 R15 P16 F3 R12 F17"
+      },
+      {
+        "game_id": 9,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+41.2 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "D17 Q16 C4 Q4 E3 C15 C16 D15 F17 C11"
+      },
+      {
+        "game_id": 10,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+24.4 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "D17 Q16 D3 Q4 D6 D15 C15 C14 C16 D13"
+      }
+    ]
+  },
+  "arena_search": {
+    "mode": "Policy+Value Search (6-Cand Lookahead)",
+    "total_games": 8,
+    "turbo_wins": 0,
+    "win_rate": 0.0,
+    "wins_as_black": 0,
+    "wins_as_white": 0,
+    "games": [
+      {
+        "game_id": 1,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+42.3 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "C4 Q4 C16 Q17 E4 E17 D17 E16 C14 J16"
+      },
+      {
+        "game_id": 2,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+71.0 (Resign @ move 131)",
+        "moves": 131,
+        "opening": "C4 Q16 R4 D16 F4 P4 P3 O3 Q3 F17"
+      },
+      {
+        "game_id": 3,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+80.8 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "D4 D16 Q16 Q4 R3 R4 Q3 O3 O2 N2"
+      },
+      {
+        "game_id": 4,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+38.7 (Resign @ move 151)",
+        "moves": 151,
+        "opening": "D4 D16 C14 Q4 Q16 F17 R3 Q3 R4 R6"
+      },
+      {
+        "game_id": 5,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+11.7 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "Q16 D4 R4 D16 P4 R17 Q17 R16 R14 S14"
+      },
+      {
+        "game_id": 6,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+58.5 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "Q16 D4 Q4 D16 F17 E17 F16 D14 C3 C4"
+      },
+      {
+        "game_id": 7,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+42.7 (Resign @ move 111)",
+        "moves": 111,
+        "opening": "C16 Q16 Q4 D4 C3 C4 D3 F3 E3 E4"
+      },
+      {
+        "game_id": 8,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+76.6 (Resign @ move 131)",
+        "moves": 131,
+        "opening": "Q17 D16 Q3 D4 Q6 R15 P16 F3 R12 F17"
+      }
+    ]
+  }
+}

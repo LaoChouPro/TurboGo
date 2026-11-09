@@ -1,0 +1,302 @@
+{
+  "batch_30_games": {
+    "total_games": 30,
+    "turbo_wins": 27,
+    "tinygo_wins": 3,
+    "win_rate_pct": 90.0,
+    "black_wins": 13,
+    "white_wins": 14,
+    "elo_diff": 381.7,
+    "wilson_95_ci_pct": [
+      74.4,
+      96.5
+    ],
+    "p_value": 8.430331945419312e-06,
+    "games": [
+      {
+        "game": 1,
+        "pair": 1,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+61.0 (目数差 +61.0 / 盘面 +9.5 @ 81手)",
+        "moves": 81,
+        "opening": "C4 Q16 Q4 C16 R17 Q17 R16 Q15"
+      },
+      {
+        "game": 2,
+        "pair": 1,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+31.7 (目数差 -31.7 / 盘面 -12.5 @ 151手)",
+        "moves": 151,
+        "opening": "C4 Q16 Q4 C16 R17 Q17 R16 Q15"
+      },
+      {
+        "game": 3,
+        "pair": 2,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+16.1 (目数差 +16.1 / 盘面 -3.5 @ 101手)",
+        "moves": 101,
+        "opening": "D4 D16 Q17 Q4 C17 D17 C16 C14"
+      },
+      {
+        "game": 4,
+        "pair": 2,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+40.0 (目数差 -40.0 / 盘面 -6.5 @ 151手)",
+        "moves": 151,
+        "opening": "D4 D16 Q17 Q4 C17 D17 C16 C14"
+      },
+      {
+        "game": 5,
+        "pair": 3,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+24.8 (目数差 +24.8 / 盘面 -9.5 @ 181手)",
+        "moves": 181,
+        "opening": "Q16 D4 Q3 D16 O17 R5 O4 R14"
+      },
+      {
+        "game": 6,
+        "pair": 3,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+22.1 (目数差 -22.1 / 盘面 -2.5 @ 161手)",
+        "moves": 161,
+        "opening": "Q16 D4 Q3 D16 O17 R5 O4 R14"
+      },
+      {
+        "game": 7,
+        "pair": 4,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+17.2 (目数差 +17.2 / 盘面 -2.5 @ 101手)",
+        "moves": 101,
+        "opening": "C16 Q16 R4 D4 O3 E17 D14 C6"
+      },
+      {
+        "game": 8,
+        "pair": 4,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+19.7 (目数差 -19.7 / 盘面 -3.5 @ 81手)",
+        "moves": 81,
+        "opening": "C16 Q16 R4 D4 O3 E17 D14 C6"
+      },
+      {
+        "game": 9,
+        "pair": 5,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+18.4 (目数差 +18.4 / 盘面 -6.5 @ 151手)",
+        "moves": 151,
+        "opening": "D17 Q16 R17 Q17 R16 Q15 R15 R14"
+      },
+      {
+        "game": 10,
+        "pair": 5,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+7.4 (盘面 +3.5, 200手)",
+        "moves": 200,
+        "opening": "D17 Q16 R17 Q17 R16 Q15 R15 R14"
+      },
+      {
+        "game": 11,
+        "pair": 6,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+29.5 (目数差 +29.5 / 盘面 -4.5 @ 171手)",
+        "moves": 171,
+        "opening": "Q17 Q4 D16 D4 R3 Q3 R4 Q5"
+      },
+      {
+        "game": 12,
+        "pair": 6,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+21.2 (目数差 -21.2 / 盘面 -6.5 @ 81手)",
+        "moves": 81,
+        "opening": "Q17 Q4 D16 D4 R3 Q3 R4 Q5"
+      },
+      {
+        "game": 13,
+        "pair": 7,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+10.3 (盘面 -0.5, 200手)",
+        "moves": 200,
+        "opening": "Q16 D4 D16 Q4 R3 R4 Q3 P4"
+      },
+      {
+        "game": 14,
+        "pair": 7,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+35.8 (目数差 -35.8 / 盘面 -15.5 @ 171手)",
+        "moves": 171,
+        "opening": "Q16 D4 D16 Q4 R3 R4 Q3 P4"
+      },
+      {
+        "game": 15,
+        "pair": 8,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+14.9 (目数差 +14.9 / 盘面 -7.5 @ 111手)",
+        "moves": 111,
+        "opening": "Q17 Q4 D4 D16 R3 Q3 R4 R6"
+      },
+      {
+        "game": 16,
+        "pair": 8,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+20.5 (目数差 -20.5 / 盘面 -3.5 @ 161手)",
+        "moves": 161,
+        "opening": "Q17 Q4 D4 D16 R3 Q3 R4 R6"
+      },
+      {
+        "game": 17,
+        "pair": 9,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+0.2 (盘面 -15.5, 200手)",
+        "moves": 200,
+        "opening": "C16 Q4 Q16 D3 R3 Q3 R4 R6"
+      },
+      {
+        "game": 18,
+        "pair": 9,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+1.9 (盘面 +0.5, 200手)",
+        "moves": 200,
+        "opening": "C16 Q4 Q16 D3 R3 Q3 R4 R6"
+      },
+      {
+        "game": 19,
+        "pair": 10,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+32.2 (目数差 +32.2 / 盘面 -1.5 @ 121手)",
+        "moves": 121,
+        "opening": "D17 D4 Q16 Q4 R3 R4 Q3 P4"
+      },
+      {
+        "game": 20,
+        "pair": 10,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+21.1 (目数差 -21.1 / 盘面 -12.5 @ 171手)",
+        "moves": 171,
+        "opening": "D17 D4 Q16 Q4 R3 R4 Q3 P4"
+      },
+      {
+        "game": 21,
+        "pair": 11,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+12.7 (目数差 +12.7 / 盘面 -3.5 @ 121手)",
+        "moves": 121,
+        "opening": "Q17 D4 Q3 D16 Q5 R15 O16 Q6"
+      },
+      {
+        "game": 22,
+        "pair": 11,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+2.8 (盘面 -1.5, 200手)",
+        "moves": 200,
+        "opening": "Q17 D4 Q3 D16 Q5 R15 O16 Q6"
+      },
+      {
+        "game": 23,
+        "pair": 12,
+        "turbo_color": "B",
+        "turbo_won": false,
+        "result": "W+14.2 (目数差 -14.2 / 盘面 -6.5 @ 151手)",
+        "moves": 151,
+        "opening": "D16 Q4 R16 C4 E3 P17 D5 C5"
+      },
+      {
+        "game": 24,
+        "pair": 12,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+22.2 (目数差 -22.2 / 盘面 -6.5 @ 81手)",
+        "moves": 81,
+        "opening": "D16 Q4 R16 C4 E3 P17 D5 C5"
+      },
+      {
+        "game": 25,
+        "pair": 13,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+21.9 (目数差 +21.9 / 盘面 +2.5 @ 111手)",
+        "moves": 111,
+        "opening": "D16 Q4 R16 D4 C14 P17 Q14 F17"
+      },
+      {
+        "game": 26,
+        "pair": 13,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+13.7 (目数差 -13.7 / 盘面 -6.5 @ 81手)",
+        "moves": 81,
+        "opening": "D16 Q4 R16 D4 C14 P17 Q14 F17"
+      },
+      {
+        "game": 27,
+        "pair": 14,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+14.0 (盘面 -24.5, 200手)",
+        "moves": 200,
+        "opening": "Q4 D16 C4 Q16 R6 E3 D6 O3"
+      },
+      {
+        "game": 28,
+        "pair": 14,
+        "turbo_color": "W",
+        "turbo_won": false,
+        "result": "B+18.3 (目数差 +18.3 / 盘面 -4.5 @ 81手)",
+        "moves": 81,
+        "opening": "Q4 D16 C4 Q16 R6 E3 D6 O3"
+      },
+      {
+        "game": 29,
+        "pair": 15,
+        "turbo_color": "B",
+        "turbo_won": true,
+        "result": "B+29.5 (目数差 +29.5 / 盘面 -16.5 @ 141手)",
+        "moves": 141,
+        "opening": "R16 D4 Q3 D16 O16 Q5 R5 R6"
+      },
+      {
+        "game": 30,
+        "pair": 15,
+        "turbo_color": "W",
+        "turbo_won": true,
+        "result": "W+12.1 (目数差 -12.1 / 盘面 -8.5 @ 121手)",
+        "moves": 121,
+        "opening": "R16 D4 Q3 D16 O16 Q5 R5 R6"
+      }
+    ]
+  },
+  "cumulative_40_games": {
+    "total_games": 40,
+    "turbo_wins": 35,
+    "tinygo_wins": 5,
+    "win_rate_pct": 87.5,
+    "black_wins": 18,
+    "white_wins": 17,
+    "elo_diff": 338.0,
+    "wilson_95_ci_pct": [
+      73.9,
+      94.5
+    ],
+    "p_value": 1.382612026645802e-06
+  }
+}
